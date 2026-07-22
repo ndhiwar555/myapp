@@ -23,6 +23,11 @@ public class EmployeeController {
         return "Employee saved!";
     }
 
+    @GetMapping("/msg")
+    public String welcome() {
+        return "Welcome!!";
+    }
+
     @GetMapping("/{id}")
     public Employee getEmployee(@PathVariable Long id) {
         return service.getEmployee(id);
