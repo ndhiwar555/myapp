@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    REPOSITORY_URI: "584860296787.dkr.ecr.us-east-1.amazonaws.com/apps-registry"
-    DOCKER_CONTAINER_NAME: "apps-registry"
+    REPOSITORY_URI: "584860296787.dkr.ecr.us-east-1.amazonaws.com/spring-app-dep"
+    DOCKER_CONTAINER_NAME: "spring-app-dep"
 
 phases:
   pre_build:
